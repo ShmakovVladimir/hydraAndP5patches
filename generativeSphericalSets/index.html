@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+    <script src="sketch.js"></script>
+    <script src="CCapture.all.min.js"></script>
+    <script src="js/gif.worker.js"></script>
+    <script>
+        var capturer = new CCapture( {
+	          framerate: 60,
+            format: 'gif',
+            workersPath: './js/',
+	          verbose: true
+        } );
+    </script>
+  </head>
+  <body>
+    <main>
+    </main>
+  </body>
+</html>
